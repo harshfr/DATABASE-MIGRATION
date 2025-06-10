@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e9306c2f-7bfe-4d21-826b-9b512ea628bd)# DATABASE-MIGRATION
+# DATABASE-MIGRATION
 
 *COMPANY*: CODETECH IT SOLUTIONS
 
