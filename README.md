@@ -1,4 +1,4 @@
-# DATABASE-MIGRATION
+![image](https://github.com/user-attachments/assets/e9306c2f-7bfe-4d21-826b-9b512ea628bd)# DATABASE-MIGRATION
 
 *COMPANY*: CODETECH IT SOLUTIONS
 
@@ -26,6 +26,17 @@ This repository documents the process of migrating a database table from **MySQL
 - Import the schema and data into **PostgreSQL**
 - Verify the successful migration with queries and data integrity checks
 
+  ## 🗃️ Files Included
+
+| File Name                                 | Description                                      |
+|-------------------------------------------|--------------------------------------------------|
+|  `Employee table Data from MYSQL.sql`     | SQL script for creating the `employees` table in MySQL |
+|  `Imported Employee table to PostgreSQL.sql` | PostgreSQL-compatible schema of the `employees` table |
+| `Migrated Employee table in postgreSQL.csv`| CSV file containing exported employee data from MySQL |
+| `Migration in SQL workbench.jpg`          |Screenshot of where Export and migration in MYSQL   |
+| `Table executed from CSV file in PostgreSQL.png`|Screenshot in PostgreSQL where database got executed|
+| `README.md`                              | This documentation file |
+
 ## 🧱 Tech Stack
 
 - **MySQL Workbench** for initial table design and data entry
@@ -34,6 +45,22 @@ This repository documents the process of migrating a database table from **MySQL
 - pgAdmin / psql CLI for PostgreSQL interaction
 - Optional tools: DBeaver / DataGrip for multi-database management
 
-## 🗃️ Employee Table Structure (MySQL)
+## 🧰 Tools Used
 
+- **MySQL Workbench** – for initial table creation and data management
+- **PostgreSQL (v17)** – as the target database for migration
+- **pgAdmin / psql CLI** – for PostgreSQL schema and data import
+- **CSV format** – used as intermediate data format for easy transfer
+- **Notepad++ / VSCode** – for editing and validating SQL/CSV files
+
+✅ Conclusion
+The migration of the employees table from MySQL to PostgreSQL was completed successfully using standard tools and formats. The process included:
+
+Designing compatible schemas
+
+Exporting and transforming data as CSV
+
+Using PostgreSQL's COPY command for efficient data import
+
+This method ensures a clean, consistent, and fast transfer of structured data between SQL database platforms.
 
