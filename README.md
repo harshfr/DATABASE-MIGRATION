@@ -26,15 +26,31 @@ This repository documents the process of migrating a database table from **MySQL
 - Import the schema and data into **PostgreSQL**
 - Verify the successful migration with queries and data integrity checks
 
+## Step-by-Step: Data Migration from MySQL to PostgreSQL
+ **Step 1: Export Data from MySQL**
+ A. Connect to MySQL (e.g., via MySQL Workbench or CLI)
+Ensure your employees table is populated and structured
+
+ **Step 2: Prepare the CSV File**
+ A. Open the CSV file in a text editor or spreadsheet
+Ensure it is comma-delimited (,)
+Ensure all columns are in the correct order:
+id,full_name,position,department,hire_date
+
+**Step 3: Import Data into PostgreSQL**
+✅ A. Create Table in PostgreSQL
+Log into PostgreSQL via psql or pgAdmin, and run
+
   ## 🗃️ Files Included
 
 | File Name                                 | Description                                      |
 |-------------------------------------------|--------------------------------------------------|
-|  `Employee table Data from MYSQL.sql`     | SQL script for creating the `employees` table in MySQL |
-|  `Imported Employee table to PostgreSQL.sql` | PostgreSQL-compatible schema of the `employees` table |
+| `Employee table Data from MYSQL.sql`     | SQL script for creating the `employees` table in MySQL |
+| `Imported Employee table to PostgreSQL.sql` | PostgreSQL-compatible schema of the `employees` table |
 | `Migrated Employee table in postgreSQL.csv`| CSV file containing exported employee data from MySQL |
 | `Migration in SQL workbench.jpg`          |Screenshot of where Export and migration in MYSQL   |
 | `Table executed from CSV file in PostgreSQL.png`|Screenshot in PostgreSQL where database got executed|
+| `Database Created in SQL Workbench.png` | Screenshot of Database creating in MYSQL Workbench |
 | `README.md`                              | This documentation file |
 
 ## 🧱 Tech Stack
@@ -63,4 +79,9 @@ Exporting and transforming data as CSV
 Using PostgreSQL's COPY command for efficient data import
 
 This method ensures a clean, consistent, and fast transfer of structured data between SQL database platforms.
+
+
+This task of Database Migration learned me so well about how to make Database migrate from one server to another between two MYSQL servers like MYSQL Workbench and PostgreSQL. With the same CSV files in table format and maintains data integrity via making same Table columns in PostgreSQL in pgAdmin4 sowtware .I learn this skill and I can use this for future reference in Datbase migration . Thanking CodeTech Solution for giving me this type Task for enhancing my Skills in SQL.
+
+
 
