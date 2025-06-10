@@ -12,13 +12,13 @@
 
 *MENTOR*: NEELA SANTOSH
 
-# 🛠️ SQL to PostgreSQL Database Migration - Employee Table
+#  SQL to PostgreSQL Database Migration - Employee Table
 
-## 📋 Project Description
+##  Project Description
 
 This repository documents the process of migrating a database table from **MySQL (SQL Workbench)** to **PostgreSQL**. The migration centers around an `Employee` table initially created and structured in MySQL, and then successfully moved to a PostgreSQL environment.
 
-## 🎯 Objectives
+##  Objectives
 
 - Create a well-defined `Employee` table schema in **MySQL Workbench**
 - Populate the table with sample employee data
@@ -38,10 +38,10 @@ Ensure all columns are in the correct order:
 id,full_name,position,department,hire_date
 
 **Step 3: Import Data into PostgreSQL**
-✅ A. Create Table in PostgreSQL
+ A. Create Table in PostgreSQL
 Log into PostgreSQL via psql or pgAdmin, and run
 
-  ## 🗃️ Files Included
+  ##  Files Included
 
 | File Name                                 | Description                                      |
 |-------------------------------------------|--------------------------------------------------|
@@ -53,7 +53,7 @@ Log into PostgreSQL via psql or pgAdmin, and run
 | `Database Created in SQL Workbench.png` | Screenshot of Database creating in MYSQL Workbench |
 | `README.md`                              | This documentation file |
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - **MySQL Workbench** for initial table design and data entry
 - **PostgreSQL** as the target database
@@ -61,7 +61,7 @@ Log into PostgreSQL via psql or pgAdmin, and run
 - pgAdmin / psql CLI for PostgreSQL interaction
 - Optional tools: DBeaver / DataGrip for multi-database management
 
-## 🧰 Tools Used
+##  Tools Used
 
 - **MySQL Workbench** – for initial table creation and data management
 - **PostgreSQL (v17)** – as the target database for migration
@@ -69,7 +69,7 @@ Log into PostgreSQL via psql or pgAdmin, and run
 - **CSV format** – used as intermediate data format for easy transfer
 - **Notepad++ / VSCode** – for editing and validating SQL/CSV files
 
-✅ Conclusion
+## Conclusion
 The migration of the employees table from MySQL to PostgreSQL was completed successfully using standard tools and formats. The process included:
 
 Designing compatible schemas
