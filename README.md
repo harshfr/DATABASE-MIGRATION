@@ -81,7 +81,7 @@ Using PostgreSQL's COPY command for efficient data import
 This method ensures a clean, consistent, and fast transfer of structured data between SQL database platforms.
 
 
-This task of Database Migration learned me so well about how to make Database migrate from one server to another between two MYSQL servers like MYSQL Workbench and PostgreSQL. With the same CSV files in table format and maintains data integrity via making same Table columns in PostgreSQL in pgAdmin4 sowtware .I learn this skill and I can use this for future reference in Datbase migration . Thanking CodeTech Solution for giving me this type Task for enhancing my Skills in SQL.
+This task of Database Migration learned me so well about how to make Database migrate from one server to another between two MYSQL servers like MYSQL Workbench and PostgreSQL. With the same CSV files in table format and maintains data integrity via making same Table columns in PostgreSQL in pgAdmin4 software. I learn this skill and I can use this for future reference in Datbase migration . Thanking CodeTech Solution for giving me this type Task for enhancing my Skills in SQL.
 
 
 
